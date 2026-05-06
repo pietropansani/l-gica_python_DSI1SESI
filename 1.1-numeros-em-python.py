@@ -21,5 +21,33 @@ numero_inteiro = 10
 print("Valor:", numero_inteiro)
 #Type() mostra qual é o tipo da variável
 print("Tipo:", type(numero_inteiro))
-
+# divisor
 print("--------------------------------")
+
+# EXEMPLO 02 - NUMERO DECIMAL
+# Float é um numero com ponto decimal
+numero_decimal = 3.14
+
+print("Valor:", numero_decimal)
+print("Tipo:", type(numero_decimal))
+
+print("---------------------------------")
+
+# EXEMPLO 03 - NUMERO COMPLEXO
+# Um numero complex possui duas partes:
+# Parte Real ( Numero Real )
+# Parte Imaginaria ( multiplicada por j )
+
+# Estrutura Geral:
+# numero = a + bj
+
+# a = partel real
+# b = parte imaginária
+# b = parte imaginária
+
+numero_complexo = 2 + 3j
+
+print("Valor:", numero_complexo)
+print("Tipo:", type(numero_complexo))
+
+print("-------------------------------")
