@@ -1,4 +1,11 @@
-"# l-gica_python_DSI1SESI" 
-# l-gica_python_DSI1SESI 
-# l-gica_python_DSI1SESI 
-# l-gica_python_DSI1SESI 
+# PRIMEIRA AULA
+Tipos Numéricos
+
+# SEGUNDA AULA
+Conversões de Tipos
+
+# TERCEIRA AULA
+Operações Aritiméticas
+
+# QUARTA AULA
+Type() e ISINSTANCE()
