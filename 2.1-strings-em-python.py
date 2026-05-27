@@ -59,3 +59,57 @@ print("Do 2 até o fim:", st[2:])
 
 print("Tamanho", len(st))
 
+# -----------------------------------------------
+# 5) OPERAÇÕES CPOM STRINGS
+# -----------------------------------------------
+# Python permite vvárias operações com strings
+
+print("m" in st)
+# Signifca que "m" existe dentro da variável st
+
+print("x" not in st)
+# Significa que "X" não existe na string
+
+print("m" * 10)
+# Multiplicação de uma String
+
+print("m" + "aracana" + texto1)
+# Operador + concatena strings
+
+# -----------------------------------------------
+# 6) STRINGS SÃO IMUTÁVEIS
+# -----------------------------------------------
+# Strings não podem ser aalteradas diretamente!!!
+# isso significa que o conteudo original não muda
+# O que acontece é a criação de uma nova string.
+
+texto5 = "python 3"
+
+texto5 = texto5.replace("3", "2")
+
+print(texto5)
+
+# -----------------------------------------------
+# 7) STRINGS COMO SEQUÊNCIAS
+# -----------------------------------------------
+# Strings possuem vários metodos uteis.
+
+cidade = "maracana"
+# Coloca a primeira letra em maiúscula.
+print(cidade.capitalize())
+
+# conta quantas vezes "a" aparece
+print(cidade.count("a"))
+
+# Verificar se começa com "m"
+print(cidade.startswith("m"))
+
+# Verificar se termina com "z"
+print(cidade.endswith("m"))
+
+frase = "copa de 2002"
+print(frase.split(" "))
+
+# -----------------------------------------------
+# 8) FORMATAÇÃO DE STRINGS
+# -----------------------------------------------
